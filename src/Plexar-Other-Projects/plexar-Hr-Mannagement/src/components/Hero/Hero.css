@@ -1,0 +1,218 @@
+.coustomBg {
+  background-color: #c8c8c8;
+  height: 737px;
+  clip-path: circle(180vh at 50% -80vh);
+}
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .coustomBg {
+    height: 550.662px;
+    border-bottom-left-radius: 140px 100px;
+  }
+}
+
+.bookingBackgroundCoustom {
+  width: 213px;
+  height: 31px;
+  background-color: white;
+  line-height: 33px;
+  margin-top: 80px;
+}
+@media only screen and (max-width: 767.98px) {
+  .bookingBackgroundCoustom {
+    width: 200px;
+    height: 30.706px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+}
+.bookingText {
+  color: #5b7cfd;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.clindexHeroHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 767.98px) {
+  .clindexHeroHeading {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+
+.clindexHeroTitel {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+@media only screen and (max-width: 767.98px) {
+  .clindexHeroTitel {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+  }
+}
+
+.heroParagraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 100%; /* Set width to 100% for all screen sizes */
+
+  /* Media query for screens smaller than or equal to 767.98px */
+}
+
+@media only screen and (max-width: 767.98px) {
+  .heroParagraph {
+    width: 67%;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+}
+
+.heroWomanImageHomePage {
+  width: auto;
+  height: 697px;
+  /* margin-left: 16px; */
+  margin-top: -24px;
+}
+
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .heroWomanImageHomePage {
+    /* Add your desired margin for smaller screens here */
+    /* overflow: hidden; */
+    margin-top: -49%;
+    margin-left: auto;
+    margin-right: -11.2px;
+    width: 62%;
+    height: auto;
+    /* transform: scaleX(-1); */
+  }
+
+  /* .heoTextAea{
+    
+  } */
+  .heroParagraph {
+    /* z-index: 2;
+  position: relative; */
+
+    margin-right: 60px;
+  }
+  .buttonsRowHero {
+    position: absolute;
+    z-index: 2;
+  }
+}
+/* styles.css */
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+}
+
+.buttonsRowHero {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767.98px) {
+  .buttonsRowHero {
+    margin-top: screen;
+  }
+}
+
+.letsTalkButtonBox {
+  width: 177px;
+  height: 56px;
+  border-radius: 4px;
+  background: #548dff;
+}
+@media only screen and (max-width: 767.98px) {
+  .letsTalkButtonBox {
+    width: 160px;
+    height: 40px;
+    margin-left: 2%;
+  }
+}
+
+.letsTalkCoustomText {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 17px;
+}
+@media only screen and (max-width: 767.98px) {
+  .letsTalkCoustomText {
+    padding-top: 9px;
+  }
+}
+
+.learnButtonButtonBoxHero {
+  width: 177px;
+  height: 56px;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-bottom: 53px;
+}
+@media only screen and (max-width: 767.98px) {
+  .learnButtonButtonBoxHero {
+    width: 160px;
+    height: 40px !important;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.learnButtonCoustomTextHero {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 16px;
+  color: white;
+}
+@media only screen and (max-width: 767.98px) {
+  .learnButtonCoustomTextHero {
+    padding-top: 9px;
+  }
+}

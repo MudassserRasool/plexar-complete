@@ -1,0 +1,125 @@
+
+.footerSection {
+  margin-top: 82px;
+  height: 458px;
+  background: #5b7cfd;
+}
+
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .footerSection {
+    height: auto;
+  }
+}
+
+
+
+.footerContentSetting {
+  padding-top: 120px;
+}
+
+.footerLogoDownText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 13px;
+}
+.linksSectionOne {
+  margin-left: 113px;
+}
+
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .linksSectionOne {
+    margin-left: auto;
+margin-right: auto;
+  }
+}
+
+
+.linksSectionTwo{
+margin-left: auto;
+margin-right: auto;
+}
+
+.linksSectionThree{
+    margin-left: auto;  
+    margin-right: auto;  
+}
+.footerLinkHeading{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.footerLinkItem{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #EEEEEE;
+text-decoration: none;
+}
+
+.footerLinkHeadingAdress{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.footerLinkItemAdress{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #EEEEEE;
+text-decoration: none;
+    padding-top: 30px;
+}
+
+.groupWorkingPara{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #716C80;
+}
+
+
+
+.coustomHrTagStyle{
+    height: 0px;
+   
+    color: white;
+    border: 1px solid #DEDEDE;
+}
+
+/* footer mobile version----------------------- */
+.footerTextPrivacyAndTerm{
+  color: #FFF;
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.footerTextCpyRightUseage{
+  color: #FFF;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}

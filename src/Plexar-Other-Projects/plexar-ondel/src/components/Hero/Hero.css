@@ -1,0 +1,268 @@
+.coustomBg {
+  background-image: url('../../assets/OndelHeroBgImage.png');
+  /* background: linear-gradient(90deg, #94B6C3 9.22%, #B5CDD7 77.93%, rgb(187, 191, 193) 100%); */
+  height: 622px;
+
+}
+@media only screen and (max-width: 767.98px){
+  .coustomBg{
+    /* width: 505.715px; */
+    height: 542px;
+  }
+}
+
+
+
+.coustomTextMarginHero{
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767.98px){
+  .coustomTextMarginHero{
+    margin-top: 20px;
+  }
+}
+.bookingBackgroundCoustom {
+  width: 213px;
+  height: 31px;
+  background-color: white;
+  line-height: 33px;
+  margin-top: 80px;
+}
+@media only screen and (max-width: 767.98px) {
+  .bookingBackgroundCoustom {
+    width: 200px;
+    height: 30.706px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+}
+.bookingText {
+  color: #5b7cfd;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+
+.clindexHeroHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 767.98px) {
+  .clindexHeroHeading{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+
+.clindexHeroTitel {
+  color: #FFF;
+font-family: "Roboto";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+}
+@media only screen and (max-width: 767.98px) {
+  .clindexHeroTitel{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+  }
+}
+
+.heroParagraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 100%; /* Set width to 100% for all screen sizes */
+
+  /* Media query for screens smaller than or equal to 767.98px */
+ 
+}
+
+@media only screen and (max-width: 767.98px) {
+  .heroParagraph{
+      width: 90%;
+      color: #FFF;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; 
+  }
+}
+
+
+
+.learnButtonCoustomText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+padding-top: 18px;
+  color: white;
+  .heroParagraph {
+    width: 64%;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+}
+
+.heroWomanImageHomePage {
+  width: auto;
+  height: 620px;
+  /* margin-left: 16px; */
+  margin-top: -80px;
+}
+
+/* .heroWomanImageHomePage {
+  width: auto;
+  height: 597px;
+  
+} */
+
+@media only screen and (max-width: 767.98px) {
+  /* For screens smaller than medium (up to 767.98px) */
+  .heroWomanImageHomePage {
+    /* Add your desired margin for smaller screens here */
+    /* overflow: hidden; */
+    margin-top: -161px;
+    margin-left: 82px;
+    width: 78%;
+    margin-top: -163px;
+    margin-left: 139px;
+    width: 62%;
+    height: auto;
+    /* transform: scaleX(-1); */
+
+  }
+
+  /* .heoTextAea{
+    
+  } */
+  .heroParagraph{
+  /* z-index: 2;
+  position: relative; */
+  
+  margin-right: 60px;
+  }
+  .buttonsRow{
+    position: absolute;
+    z-index: 2;
+}
+}
+
+/* styles.css */
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+}
+
+.buttonsRowHero {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767.98px) {
+  .buttonsRowHero {
+    margin-top: 90px;
+/* 
+    margin-left: 7%;
+    margin-right: 7%; */
+  }
+}
+
+.letsTalkButtonBox {
+  width: 177px;
+  height: 56px;
+  border-radius: 4px;
+  background: #548dff;
+}
+@media only screen and (max-width: 767.98px) {
+  .letsTalkButtonBox {
+    /* width: 122px;
+    height: 40px; */
+
+    height: 40px;
+    width: 160px;
+  }
+}
+
+.letsTalkCoustomText {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 17px;
+}
+@media only screen and (max-width: 767.98px) {
+  .letsTalkCoustomText {
+    padding-top: 9px;
+  }
+}
+
+.learnButtonButtonBoxHero {
+  width: 177px;
+  height: 56px;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding-bottom: 53px;
+}
+@media only screen and (max-width: 767.98px) {
+  .learnButtonButtonBoxHero {
+    height: 40px;
+    width: 160px;
+    padding-bottom: 12px;
+  }
+}
+
+.learnButtonCoustomTextHero {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 17px;
+  color: white;
+}
+@media only screen and (max-width: 767.98px) {
+  .learnButtonCoustomTextHero {
+    padding-top: 9px;
+  }
+}

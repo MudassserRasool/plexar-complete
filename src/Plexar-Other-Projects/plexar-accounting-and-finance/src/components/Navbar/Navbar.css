@@ -1,0 +1,74 @@
+
+
+.navbarItemsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plexarLogo {
+  width: 121px;
+  height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For medium and bigger screens */
+  .plexarLogo {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 10px) {
+  /* For screens below 10 pixels */
+  .plexarLogo {
+    margin-left: 0;
+  }
+}
+
+
+.navItemTextCoustom {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  /* margin-left: 30px; */
+}
+
+.SignUpText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 16px; */
+  /* margin-top: 10px; */
+  color: #000000;
+}
+
+.navLinksArea {
+  margin-right: 50px;
+}
+
+.userAccountIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.coustomNavbaSize{
+  height: 73px;
+}
+
+.colepessedContainer{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.accountMobileStyle{
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}

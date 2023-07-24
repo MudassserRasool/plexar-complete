@@ -1,0 +1,123 @@
+.coustomContactUsBg {
+    background-color: #5B7CFD;
+    margin-top: 96px;
+    height: 431px;
+    /* padding-bottom: 20px; */
+  }
+  
+  @media only screen and (max-width: 767.98px) {
+    .coustomContactUsBg {
+      height: auto;
+    margin-top: 55px;
+    padding-bottom: 20px;
+    }
+  }
+  
+.markitingImageAligenment{
+    margin-top: -17px;
+}
+.contactUsHeadingMainPage {
+  margin-top: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  /* Screens below medium */
+  .contactUsHeadingMainPage {
+font-size: 32px;
+line-height: normal;
+  }
+}
+
+.contactUsPara{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 767.98px) {
+  .contactUsPara {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+}
+.buttonsRowContactUs{
+margin-top: 57px;
+
+}
+@media only screen and (max-width: 767.98px) {
+  .buttonsRowContactUs {
+    margin-top: 40px;
+  }
+}
+.contactUsButtonBox{
+    width: 177px;
+    height: 56px;
+    background-color: white;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 767.98px) {
+  .contactUsButtonBox {
+    height: 40px;
+    width: 160px;
+    /* margin-top: 10px; */
+  }
+}
+
+.contactUsButtonText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #5B7CFD;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767.98px) {
+  .contactUsButtonText {
+    font-size: 14px;
+line-height: normal;
+padding-top: 13px;
+  }
+}
+
+  .learnButtonButtonBoxContactComponent  {
+    width: 177px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid white;
+  }
+  @media only screen and (max-width: 767.98px) {
+    .learnButtonButtonBoxContactComponent  {
+      height: 40px;
+      width: 160px;
+    }
+  }
+
+  .learnButtonCoustomTextContactComponent {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+        padding-top: 20px;
+  }
+  
+  @media only screen and (max-width: 767.98px) {
+    .learnButtonCoustomTextContactComponent {
+      font-size: 14px;
+  line-height: normal;
+  padding-top: 13px;
+    }
+  }

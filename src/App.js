@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+// import ClindexHomePage from './Plexar-Other-Projects/plexar-home-page/src/App'
+// import AccountingMannagement from './Plexar-Other-Projects/plexar-accounting-and-finance/src/App'
+// import HrMannagement from './Plexar-Other-Projects//plexar-Hr-Mannagement/src/App'
+// import InveentoryMannagement from './Plexar-Other-Projects/plexar-inventory-management/src/App'
+import OndelProject from './Plexar-Other-Projects/plexar-ondel/src/App'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ClindexHomePage/> */}
+      {/* <AccountingMannagement/> */}
+      {/* <HrMannagement/> */}
+      {/* <InveentoryMannagement/> */}
+      <OndelProject/>
     </div>
   );
 }

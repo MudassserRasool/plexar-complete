@@ -1,0 +1,180 @@
+.smartInventoryReportingSectionMarginTop{
+    margin-top: 105px;
+}
+@media only screen and (max-width: 767.98px) {
+  .smartInventoryReportingSectionMarginTop{
+      margin-top: 40px;
+}
+}
+
+.smartInventoryReportingSystemHeading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #333333;
+}
+@media only screen and (max-width: 767.98px) {
+    .smartInventoryReportingSystemHeading{
+        color: #333333;
+        font-family: "Roboto";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+    }
+  }
+
+
+.smartInventoryReportingHeadingLatter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #548DFF;
+}
+@media only screen and (max-width: 767.98px) {
+    .smartInventoryReportingHeadingLatter{
+        color: #548DFF;
+        font-family: "Roboto";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+    }
+  }
+
+.reportMannagmentItemsGrid{
+    margin-top: 14px;
+}
+@media only screen and (max-width: 767.98px) {
+    .reportMannagmentItemsGrid{
+      margin-top: 16px !important;
+    }
+  }
+
+  .reportMannagmentItemsTopMargin{
+    margin-top: 40px;
+  }
+  @media only screen and (max-width: 767.98px) {
+    .reportMannagmentItemsTopMargin{
+      margin-top: 7px;
+    }
+  }
+
+.reportMannagmentItemIcon{
+    width: 64px;
+    height: 64px;
+}
+@media only screen and (max-width: 767.98px) {
+    .reportMannagmentItemIcon{
+        width: 30px;
+        height: 29.774px;
+    }
+  }
+
+
+.smartInventoryReportingPara{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333330;
+    margin-top: 26px;
+}
+@media only screen and (max-width: 767.98px) {
+    .smartInventoryReportingPara{
+        color: #333330;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+  }
+
+.smartInventoryReportingItemName{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+}
+@media only screen and (max-width: 767.98px) {
+    .smartInventoryReportingItemName{
+        color: #333;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+  }
+
+.smartInventoryReportingDescription{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 21px;
+    color: #666666;
+}
+@media only screen and (max-width: 767.98px) {
+    .smartInventoryReportingDescription{
+        color: #666;
+font-family: 'Roboto';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+margin-top: 2px;
+    }
+  }
+
+.learnButtonButtonBoxForsmartInventoryReportingItems {
+    width: 177px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #4D30FF;
+    border: 1px solid white;
+  }
+    @media only screen and (max-width: 767.98px){
+    .learnButtonButtonBoxForsmartInventoryReportingItems{
+      width: 160px;
+      height: 40px;
+    }
+  }
+  
+  .learnButtonCoustomTextInventoryReporting {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+  
+    text-align: center;
+  padding-top:15px;
+    color: white;
+  }
+  @media only screen and (max-width: 767.98px){
+    .learnButtonCoustomTextInventoryReporting{
+      padding-top: 9px;
+    }
+  }
+  
+
+  .InventoryReportingItemsImgae{
+margin-top: 00px;
+  }
+  @media only screen and (max-width: 767.98px){
+    .InventoryReportingItemsImgae{
+      padding-top: 50px;
+    }
+  }
